@@ -1,6 +1,7 @@
 package net.kkura.nucleon;
 
 import net.kkura.nucleon.block.ModBlocks;
+import net.kkura.nucleon.item.ModCreativeModeTabs;
 import net.kkura.nucleon.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -39,6 +40,7 @@ public class NucleonMod {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

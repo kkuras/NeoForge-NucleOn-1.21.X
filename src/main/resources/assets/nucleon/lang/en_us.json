@@ -1,6 +1,8 @@
 {
+  "item.nucleon.niobium_ingot": "Niobium Ingot",
 
   "block.nucleon.fusion_casing": "Fusion Casing",
 
-  "creativetab.nucleon.fusion_items": "fusion Blocks"
+  "creativetab.nucleon.nucleon_items": "Nucleon Items",
+  "creativetab.nucleon.nucleon_blocks": "Nucleon Blocks"
 }
